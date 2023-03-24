@@ -79,7 +79,7 @@
 				<div class="fh5co-navbar-brand">
 					<div class="row">
 						<div class="col-xs-6">
-							<h1 class="text-left"><a class="fh5co-logo" href="index.html"><span>Blog</span> Words <span>WordPress Theme</span></a></h1>
+							<h1 class="text-left"><a class="fh5co-logo" href="index.html">Home</a></h1>
 						</div>
 						<div class="col-xs-6">
 							<p class="fh5co-social-icon text-right">
@@ -106,7 +106,7 @@
 			   					<div class="desc">
 			   						<span>Contact Information</span>
 			   						<h2>Contact Us</h2>
-			   						<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+			   						<!-- <p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p> -->
 			   					</div>
 			   				</div>
 			   			</div>
@@ -129,34 +129,36 @@
 						</ul>
 					</div>
 					<div class="col-md-7 col-md-push-1 animate-box">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Name">
+						<form action="Mail.php" method="post">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="fromEmail" class="form-control" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea name="Message" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary">
+									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Email">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary">
-								</div>
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="fh5co-counters" style="background-image: url(images/hero.jpg);" data-stellar-background-ratio="0.5" id="counter-animate">
+		<!-- <div class="fh5co-counters" style="background-image: url(images/hero.jpg);" data-stellar-background-ratio="0.5" id="counter-animate">
 			<div class="fh5co-narrow-content animate-box">
 				<div class="row" >
 					<div class="col-md-4 text-center">
@@ -173,7 +175,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<footer>
 			<div id="footer">
 				<div class="container">
@@ -199,9 +201,9 @@
 							<h3 class="section-title">Information</h3>
 							<ul>
 								<li><a href="#">Terms &amp; Condition</a></li>
-								<li><a href="#">License</a></li>
-								<li><a href="#">Privacy &amp; Policy</a></li>
-								<li><a href="#">Contact Us</a></li>
+								<!-- <li><a href="#">License</a></li> -->
+								<!-- <li><a href="#">Privacy &amp; Policy</a></li> -->
+								<li><a href="/contact.html">Contact Us</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
@@ -219,7 +221,7 @@
 							</form>
 						</div>
 					</div>
-					<div class="row copy-right">
+					<!-- <div class="row copy-right">
 						<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icon">
 								<a href="#"><i class="icon-twitter2"></i></a>
@@ -230,7 +232,7 @@
 							</p>
 							<p>Copyright 2016 Free Html5 <a href="#">Words</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="http://blog.gessato.com/" target="_blank">Gessato</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</footer>
